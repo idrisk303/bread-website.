@@ -1,66 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$BREAD | RISES. BREAD ALWAYS.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bread - The Future Starts Here</title>
 
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+overflow-x:hidden;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:radial-gradient(circle at top,#3d2a00,#050505);
+}
+
+.logo{
+font-size:60px;
+margin-bottom:20px;
+animation:float 3s ease-in-out infinite;
+}
+
+h1{
+font-size:52px;
+font-weight:900;
+color:#FFD700;
+}
+
+p{
+margin-top:20px;
+font-size:20px;
+max-width:700px;
+line-height:1.8;
+color:#d7d7d7;
+}
+
+button{
+margin-top:35px;
+padding:18px 45px;
+border:none;
+border-radius:50px;
+background:#FFD700;
+color:black;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+box-shadow:0 0 35px gold;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+</style>
+
 </head>
 
 <body>
 
-<header class="navbar">
-    <div class="logo">$BREAD</div>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Tokenomics</a>
-        <a href="#">Roadmap</a>
-        <a href="#">Gallery</a>
-        <a href="#">Community</a>
-    </nav>
-
-    <a href="#" class="buy-btn">BUY</a>
-</header>
-
 <section class="hero">
 
-    <div class="hero-text">
+<div class="logo">🍞</div>
 
-        <h1>
-            RISES.<br>
-            BREAD ALWAYS.
-        </h1>
+<h1>BREAD</h1>
 
-        <p>
-            The premium meme coin baked for the community.
-            Built to rise. Built for the people.
-        </p>
+<p>
+A new generation Web3 ecosystem built for builders,
+believers and the future of decentralisation.
+Simple. Powerful. Community First.
+</p>
 
-        <div class="buttons">
-            <a href="#">Buy $BREAD</a>
-            <a href="#">Join Telegram</a>
-        </div>
-
-    </div>
-
-    <div class="hero-image">
-
-        <!-- We'll replace this with the official mascot -->
-        <img src="assets/images/bread.png" alt="Bread Mascot">
-
-    </div>
+<button>Join Community</button>
 
 </section>
 
-<script src="script.js"></script>
-
 </body>
-  </html>
+</html>
